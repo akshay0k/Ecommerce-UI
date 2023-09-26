@@ -292,9 +292,9 @@ const Productlist = () => {
             <button className="border px-5 py-2">Clear All</button>
           </div>
         </div>
-        <div className="w-full flex flex-wrap gap-1 mt-3 pl-10 ">
+        <div className="w-full flex flex-wrap justify-center  md:gap-1 mt-3  md:pl-10 ">
           {data.map((items, index) => (
-            <ProductCard key={index} items={items} />
+            <ProductCard key={index} items={items}/>
           ))}
         </div>
 

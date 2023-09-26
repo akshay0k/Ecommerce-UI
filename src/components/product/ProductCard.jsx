@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductCard = ({ items }) => {
   return (
-    <div className="w-[174px]  md:w-[234px] md:h-[346px] text-sm">
+    <div className="w-[134px]  md:w-[234px] md:h-[346px] mr-5 md:mr-0 text-sm">
       <span className=" text-green-500 flex items-center gap-2">
         <svg
           width="11"
@@ -20,11 +20,11 @@ const ProductCard = ({ items }) => {
         </svg>
         <span >{items.stock}</span>
       </span>
-      <div className="w-[150px] h-[150px] flex justify-center items-center">
+      <div className="w-[134px] h-[134px] flex justify-center items-center">
         <img
           src={items.img}
           alt={items.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover "
         />
       </div>
       <div>

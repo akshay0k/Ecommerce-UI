@@ -25,8 +25,8 @@ function Navbar() {
               <hr className="bg-white" /></span></p>
             </div>
 
-            <div className="h-[10px] md:h-[17px] absolute right-4 top-1 md:hidden">
-              <p className="text-white bg-amber-400 font-normal">Contact Us</p>
+            <div className=" md:h-[17px] absolute right-4 top-2.5  md:hidden">
+              <p className="text-white  text-[12px] font-medium">Contact Us</p>
               <hr className="bg-white" />
             </div>
 
